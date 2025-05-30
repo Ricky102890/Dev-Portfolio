@@ -1,0 +1,35 @@
+/* IMPORTS */
+
+/* UNIVERSAL */
+*, *::before, *::after {
+
+}
+
+/* ROOT */
+
+/* HTML */
+
+/* BODY */
+body {
+    width: 100%;
+}
+/* LIST STYLES */
+
+/* ANCHOR STYLES */
+
+/* BUTTON STYLES */
+
+/* RESPONSIVE STYLES / LAYOUTS */
+
+/* HEADING STYLES */
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6 {
+    color: blueviolet;
+}
+/* PARAGRAPH STYLES / LAYOUTS */
+
+/* SPAN STYLES / LAYOUTS */

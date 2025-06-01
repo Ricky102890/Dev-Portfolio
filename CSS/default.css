@@ -12,6 +12,12 @@
 /* BODY */
 body {
     width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: url(/MEDIA/vaporwave.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* LIST STYLES */
 

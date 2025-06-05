@@ -1,7 +1,7 @@
 /* Fonts & Imports */
 @font-face {
-    font-family: '#';
-    src: url();
+    font-family: 'Blu';
+    src: url(/assets/fonts/BluPurpl-PersonalUse.ttf);
 }
 @font-face {
     font-family: '##';
@@ -11,5 +11,97 @@
 :root {
     
 }
-
+.test {
+    backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    /* Adjust */
+    font-family: 'Blu', sans-serif;
+    letter-spacing: .2rem;
+    position: relative;
+}
+nav {
+    max-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 8rem 1rem 2rem;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+.nav_item {
+    width: fit-content;
+    display: block;
+    font-family: 'Blu', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+.nav_menu { 
+    width: 40px;
+    height: 300px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        transparent,
+        white
+    );
+    color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    transition: all 700ms ease-in-out;
+}
+.nav_menu.show {
+    width: 400px;
+    height: 300px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        transparent,
+        white
+    );
+    color: black;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: -400px;
+}
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 2rem;
+}
+.test h1 {
+    font-size: 5rem;
+}
+.test h4 {
+    font-size: 1rem;
+}
+.test span {
+    font-size: .75rem;
+}
 

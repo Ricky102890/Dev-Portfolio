@@ -13,6 +13,16 @@ body {
     width: 100%;
     height: auto;
     min-height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #004244, 
+        #003b3d,
+        #003436,
+        #002e2f,
+        #002728,
+        #002122,
+        #001a1b
+    );
 }
 /* HEADING */
 h1,
